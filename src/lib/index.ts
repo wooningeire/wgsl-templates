@@ -1,4 +1,4 @@
-export type {WgslItem} from "./WgslItem.ts";
-export {WgslConstant} from "./WgslConstant.ts";
-export {WgslStruct} from "./WgslStruct.ts";
-export {interpolateWgslTemplate} from "./interpolateWgslTemplate.ts";
+export type {WgslItem} from "./WgslItem";
+export {WgslConstant} from "./WgslConstant";
+export {WgslStruct} from "./WgslStruct";
+export {interpolateWgslTemplate} from "./interpolateWgslTemplate";

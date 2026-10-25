@@ -1,4 +1,4 @@
-import { type WgslItem } from "./WgslItem.ts";
+import type { WgslItem } from "./WgslItem";
 
 export class WgslConstant<T> implements WgslItem {
     static readonly typeSymbol = Symbol("wgsl constant");
