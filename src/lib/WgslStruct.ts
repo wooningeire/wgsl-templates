@@ -1,4 +1,4 @@
-import type { WgslItem } from "./WgslItem";
+import type { WgslItem } from "./WgslItem.ts";
 
 export class WgslStruct implements WgslItem {
     static readonly typeSymbol = Symbol("wgsl struct");

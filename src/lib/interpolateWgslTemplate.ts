@@ -1,6 +1,6 @@
-import { WgslConstant } from "./WgslConstant";
-import type { WgslItem } from "./WgslItem";
-import { WgslStruct } from "./WgslStruct";
+import { WgslConstant } from "./WgslConstant.ts";
+import type { WgslItem } from "./WgslItem.ts";
+import { WgslStruct } from "./WgslStruct.ts";
 
 export const interpolateWgslTemplate = (strings: TemplateStringsArray, ...interpolations: WgslItem[]) => {
     const uniqueStructs = new Set<WgslStruct>();
